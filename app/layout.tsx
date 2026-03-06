@@ -14,7 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "SoundCheck - Music Metadata Validator",
-  description: "Catch errors, fix inconsistencies, and optimize metadata for streaming platforms. Stop distribution rejections before they happen.",
+  description: "Validate your music metadata before release",
 }
 
 export const viewport = {
