@@ -14,7 +14,11 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "SoundCheck - Music Metadata Validator",
-  description: "Professional music metadata validation tool for artists and labels",
+  description: "Catch errors, fix inconsistencies, and optimize metadata for streaming platforms. Stop distribution rejections before they happen.",
+}
+
+export const viewport = {
+  themeColor: "#22c55e",
 }
 
 export default function RootLayout({
@@ -23,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased`}>
         {children}
       </body>
